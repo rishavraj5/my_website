@@ -1,0 +1,114 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica, sans-serif, arial;
+	line-height: 1.5;
+}
+
+
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+header ul{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+#first{
+    background: #cedbd5;
+    border-top: 5px orange solid;
+    border-bottom: 5px orange solid;
+    min-height: 570px; 
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.style1 a li{
+  list-style-image: url('fb2.jpg');
+  padding-left: 20px;
+  padding-bottom: 45px;
+  font-color: white;
+  font-size: 200%;
+  margin-left: 43%;
+}
+.style2 a li{
+  list-style-image: url('linkedincomp.jpg');
+  padding-left: 20px;
+  padding-bottom: 45px;
+  font-color: white;
+  font-size: 200%;
+  margin-left: 43%;
+}
+.style3 li{
+  list-style-image: url('gmailcomp.png');
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: #cc210e;
+  font-size: 200%;
+  margin-left: 43%;
+}
+.style4 li{
+  list-style-image: url('whatsappcomp.png');
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: #cc210e;
+  font-size: 200%;  
+  margin-left: 43%;
+}
+
+footer{
+  padding:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
